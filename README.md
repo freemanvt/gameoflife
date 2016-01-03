@@ -11,7 +11,7 @@ To run, clone to your desktop and enter
 To create your own Game Of Life board. Do the following
 
 ```javascript
-var GameOfLife = require('./GameOfLife');
+var GameOfLife = require('GameOfLife');
 // you can pass in the number of rows and columns you want for the board
 var gameoflife = new GameOfLife(10, 10);
 ```
