@@ -40,6 +40,6 @@ GameOfLife.prototype.runOnce = function() {
     }
     this.board._board = tempBoard._board.slice();
 
-}
+};
 
 module.exports = GameOfLife;

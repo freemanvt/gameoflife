@@ -66,7 +66,7 @@ Board.prototype.printBoard = function() {
             string += '[' + row[j] + ']';
         }
         string += '\n';
-    };
+    }
     return string;
 };
 
@@ -82,7 +82,7 @@ Board.prototype.setCell = function(x, y, bool) {
 Board.prototype.getCell = function(x, y) {
     var row = this._board[checkY(y-1)];
     return row[checkX(x-1)];
-}
+};
 
 Board.prototype.isValidCell = function(x, y) {
     var xx = x-1;
@@ -93,7 +93,7 @@ Board.prototype.isValidCell = function(x, y) {
         }
     }
     return false;
-}
+};
 
 Board.prototype.getNeighbours = function(x, y) {
     var xx = x-1;
@@ -122,7 +122,7 @@ Board.prototype.getNeighbours = function(x, y) {
         }
     }
     return neighbours;
-}
+};
 
 Board.prototype.getNoOfLiveNeighbours = function (x, y) {
     var neighbours = this.getNeighbours(x, y);
@@ -138,7 +138,7 @@ Board.prototype.resetBoard = function () {
             (this._board[j])[i] = 0;
         }
     }
-}
+};
 
 
 
