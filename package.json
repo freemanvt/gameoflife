@@ -1,0 +1,26 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "Implementation for the Game Of Life",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freemanvt/gameoflife"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Vinh Ta <vinhta@vinniesoft.co.uk> (http://www.vinniesoft.co.uk)",
+  "homepage": "http://www.vinniesoft.co.uk",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "3.4.1"
+  },
+  "peerDependencies": {
+    "mocha": "^2.3.4",
+    "jshint": "^2.9.1"
+  }
+}
